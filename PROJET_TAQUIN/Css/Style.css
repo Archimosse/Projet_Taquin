@@ -1,0 +1,59 @@
+body{
+    background-color: #60FDBD;
+}
+
+h1.titre{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+}
+
+h1{
+    color: #777777;
+    text-align: center;
+    margin: 35px;
+    
+}
+
+
+
+
+div#content div.rightbox input,iframe{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 500px;
+   
+}
+
+
+div#content div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+div#content div iframe{
+    vertical-align: top;
+    margin: 50px;
+}
+
+div#content div{
+    display: inline-block;
+    width: 45%;
+
+}
+
+
+div#content div.leftbox{
+    background-color: yellow;
+    vertical-align: top;
+
+}
+
+
+div#content div.rightbox{
+    background-color: blue;
+
+    
+    
+}
