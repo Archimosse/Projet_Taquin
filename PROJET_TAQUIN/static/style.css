@@ -19,16 +19,44 @@ h2{
     color: #777777;
     text-align: center;
     margin: 35px;
+    size: 20%;
+
+}
+
+
+div#jeu{
+    width: 500px;
+    height: 500px;
+    background: green;
+    direction: column;
+}
+
+div#jeu div.square {
+    border: 3px solid black;
+    background: red;
+    width: 31%;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: inline-flex;
 
 }
 
 
 
 
-div#content div.rightbox input,iframe{
+div#content div.rightbox div.button{
+    display: flex;
+}
+
+
+
+
+div#content div.rightbox input{
     vertical-align: top;
     display: inline-block;
-    margin-left: 500px;
+    margin-left: 0px;
    
 }
 
@@ -39,15 +67,14 @@ div#content div img{
     margin-right: auto; 
 }
 
-div#content div iframe{
-    vertical-align: top;
-    margin: 50px;
-}
 
-div#content div{
-    display: inline-block;
+
+div#content{
+    display: inline-grid;
     width: 45%;
-    background-color: red;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-left: 10px;
 
 }
 
